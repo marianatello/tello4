@@ -1,0 +1,55 @@
+iframe{
+    width: 100%;
+}
+
+.caja{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    text-align: center;
+}
+
+.home{
+    background-color: rgb(51, 126, 101);  
+    padding: 10px ;
+    border-radius: 3px;
+    color: white;
+    
+  }
+  .home:hover{
+      background-color: rgb(91, 163, 139);
+  }
+.precio_producto{
+    font-size: 30px;
+}
+
+
+.btn{
+    background-color: rgb(3, 3, 3);
+    padding: 15px 20px;
+    color: rgb(243, 243, 243);
+    border-radius: 10px;
+    border: 0px;
+    position: relative;
+    top: -15px;
+}
+.btn:hover{
+    background-color: rgb(29, 155, 4);
+}
+.enlace{
+    font-size: 20px;
+}
+.texto{
+    text-align: justify;
+    font-family: arial;
+}
+.caja_informacion{
+    color: white;
+    background-color: orange;
+}
+.titulo_producto{
+    background-color: rgb(255, 166, 0);
+    display:-moz-inline-box;
+    font-family: arial;
+}
+
